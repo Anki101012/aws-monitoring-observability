@@ -49,6 +49,5 @@
 ## Grafana Alerting
 
 - Alert rules were configured in Grafana to detect infrastructure anomalies based on CloudWatch metrics and trigger alerts when thresholds are exceeded. Once triggered,, gets deliver through email or SNS.
----
 
 ![Grafana Alert](screenshots/grafana-alert.png)
