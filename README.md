@@ -8,7 +8,7 @@
 
 ## Architecture
 
-The monitoring solution integrates AWS CloudWatch metrics with Amazon Managed Grafana to visualize infrastructure health and performance.
+- The monitoring solution integrates AWS CloudWatch metrics with Amazon Managed Grafana to visualize infrastructure health and performance.
 
 ![Architecture Diagram](screenshots/architecture-diagram.png)
 ---
@@ -24,7 +24,7 @@ The monitoring solution integrates AWS CloudWatch metrics with Amazon Managed Gr
 
 ## System-Level Metrics (CloudWatch Agent)
 
-Using **CloudWatch Agent**, additional operating system metrics were collected. These metrics are published under the **CWAgent namespace** in CloudWatch.
+- Using **CloudWatch Agent**, additional operating system metrics were collected. These metrics are published under the **CWAgent namespace** in CloudWatch.
 
 - Memory Usage
 - Disk Utilization
@@ -44,10 +44,9 @@ Using **CloudWatch Agent**, additional operating system metrics were collected. 
 ![Grafana Dashboard](screenshots/grafana-dashboard.png)
 ---
 
-### Grafana Alerting
+## Grafana Alerting
 
-Alert rules were configured in Grafana to detect infrastructure anomalies based on CloudWatch metrics and trigger alerts when thresholds are exceeded.
-Once triggered,, gets deliver through email or SNS.
+- Alert rules were configured in Grafana to detect infrastructure anomalies based on CloudWatch metrics and trigger alerts when thresholds are exceeded. Once triggered,, gets deliver through email or SNS.
 ---
 
 ![Grafana Alert](screenshots/grafana-alert.png)
