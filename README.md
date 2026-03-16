@@ -30,7 +30,9 @@
 - Disk Utilization
 - Filesystem usage
 
-![CloudWatch Metrics](screenshots/cloudwatch-memory-metric.png)
+![CloudWatch Metrics](screenshots/cloudwatch-metric.png)
+
+![CloudWatch Metrics](screenshots/cloudwatch-metric1.png)
 ---
 
 ## Grafana Custom dashboards 
