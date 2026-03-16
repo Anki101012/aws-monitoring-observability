@@ -33,7 +33,7 @@ Using **CloudWatch Agent**, additional operating system metrics were collected. 
 ![CloudWatch Metrics](screenshots/cloudwatch-memory-metric.png)
 ---
 
-## Custom dashboards were created to display:
+## Grafana Custom dashboards 
 
 - CPU utilization 
 - Memory usage
@@ -45,6 +45,7 @@ Using **CloudWatch Agent**, additional operating system metrics were collected. 
 ---
 
 ### Grafana Alerting
+
 Alert rules were configured in Grafana to detect infrastructure anomalies based on CloudWatch metrics and trigger alerts when thresholds are exceeded.
 Once triggered,, gets deliver through email or SNS.
 ---
